@@ -8,6 +8,7 @@
   <body>
     <h1>Registration Form</h1>
     <p>Please fill out this form with the required information</p>
+    
     <form method="post" action='https://register-demo.freecodecamp.org'>
       <fieldset>
         <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
@@ -16,7 +17,7 @@
         <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
       </fieldset>
       <fieldset>
-        <!--to have only one selectable radio button, set the property name as same value-->
+        <!--to have only one selectable radio button, set the value of names as a same value-->
         <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> Personal Account</label>
         <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Business Account</label>
         <label for="terms-and-conditions">

@@ -26,11 +26,12 @@ body {
     padding: 2rem 0;
     border-bottom: 3px solid #3b3b4f;
   }
-  
+  /*last of this type of element, instead of giving it a class and editting
+    first-of-type can be used to target first element*/
   fieldset:last-of-type {
     border-bottom: none;
   }
-  
+  /*0.5 rem means 8px, since 1 rem is 16px*/
   label {
     display: block;
     margin: 0.5rem 0;
@@ -66,7 +67,7 @@ body {
     border-color: white;
     min-width: 300px;
   }
-  
+  /*targets specifaclly the input with type of file*/
   input[type="file"] {
     padding: 1px 2px;
   }
